@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/cream"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="321dp"
+        android:layout_height="197dp"
+        android:layout_marginTop="1dp"
+        android:src="@drawable/donate2" />
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/regular_font"
+        android:text="Donor Information"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/edit_text_bg"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:padding="12dp"
+        android:textSize="12sp"
+        android:fontFamily="@font/regular_font"/>
+
+    <!-- Email Field -->
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/edit_text_bg"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="12dp"
+        android:textSize="12sp"
+        android:fontFamily="@font/regular_font"/>
+
+
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/edit_text_bg"
+        android:hint="Amount"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:textSize="12sp"
+        android:fontFamily="@font/regular_font"/>
+
+    <!-- Sign Up Button -->
+
+    <!-- Login Text (Already a user?) -->
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_green"
+        android:fontFamily="@font/regular_font"
+        android:padding="8dp"
+        android:text="Donate"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp" />
+=
+
+</LinearLayout>

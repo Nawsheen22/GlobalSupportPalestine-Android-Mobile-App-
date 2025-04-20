@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    android:background="@color/cream">
+
+    <!-- Horizontal LinearLayout for the buttons -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="@font/regular_font"
+        android:text="Donation"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:weightSum="2">
+
+        <!-- Medical Button -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/regular_font"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginEnd="20dp">
+
+            <ImageButton
+                android:id="@+id/btnMedical"
+                android:layout_width="152dp"
+                android:fontFamily="@font/regular_font"
+                android:layout_height="144dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/medical_icon"
+                android:contentDescription="Medical" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Medical"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:layout_marginTop="10dp"/>
+
+        </LinearLayout>
+
+        <!-- Repairing Button -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginStart="10dp">
+
+            <ImageButton
+                android:id="@+id/btnRepairing"
+                android:layout_width="151dp"
+                android:layout_height="151dp"
+                android:background="@drawable/repair"
+                android:contentDescription="Repairing"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/regular_font"
+                android:text="Repairing"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:layout_marginTop="10dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- Horizontal LinearLayout for the bottom buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <!-- Food Button -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginEnd="10dp">
+
+            <ImageButton
+                android:id="@+id/btnFood"
+                android:layout_width="149dp"
+                android:layout_height="130dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/food"
+                android:contentDescription="Food" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/regular_font"
+                android:text="Food"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:layout_marginTop="10dp"/>
+
+        </LinearLayout>
+
+        <!-- Water Button -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="190dp"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/btnWater"
+                android:layout_width="90dp"
+                android:layout_height="142dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/water"
+                android:contentDescription="Water" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:fontFamily="@font/regular_font"
+                android:text="Water"
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginTop="45dp"
+        android:src="@drawable/strong" />
+
+    <TextView
+        android:id="@+id/freeText"
+        android:layout_width="209dp"
+        android:layout_height="84dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/regular_font"
+        android:text="WHEN YOU BOMB A WATERMELON,YOU SPREAD ITS SEEDS 🇵🇸"
+        android:textColor="#000000"
+        android:textSize="20sp"/>
+
+
+</LinearLayout>

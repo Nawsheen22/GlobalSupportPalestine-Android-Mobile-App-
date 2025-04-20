@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">palestine</string>
+
+
+    <string name="mission_text">GlobalPalestineSupport is a transparent platform for humanitarian aid in Palestine. Amid ongoing <b>War- Crime, Genocide</b> done by Israel, Palestinians struggle with access to basic right like healthcare, food, and resources. We make every donation count by providing real-time updates, country-specific insights, and clear project reports. Our commitment to openness and accountability builds trust, empowering donors to make a lasting impact.
+</string>
+
+
+    <string name="loading">Loading...</string>
+    <string name="link_not_available">Link not available.</string>
+    <string name="error_fetching_link">Error fetching link.</string>
+    <string name="dome_of_the_rock_image">Dome of the Rock Image</string>
+    <string name="dome_of_the_rock_title">The Dome of the Rock</string>
+    <string name="source_text">Source: </string>
+    <string name="dome_of_rock_image">Dome of the Rock Image</string>
+    1-0
+</resources>

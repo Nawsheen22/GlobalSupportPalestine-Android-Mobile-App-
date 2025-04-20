@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    android:background="@color/cream">
+
+    <!-- Title Text: The Dome of the Rock -->
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:textSize="24sp"
+        android:textColor="#000000"
+        android:fontFamily="@font/regular_font"
+        android:layout_height="67dp"
+        android:text="@string/dome_of_the_rock_title"  /><!-- Use string resource -->
+
+
+
+    <!-- Image of the Dome of the Rock -->
+    <ImageView
+        android:id="@+id/domeImageView"
+        android:layout_width="365dp"
+        android:layout_height="393dp"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="@string/dome_of_rock_image"
+        android:src="@drawable/domeofrock" /> <!-- Added contentDescription -->
+
+    <!-- Source Text with Link -->
+    <TextView
+        android:id="@+id/sourceTextView"
+        android:layout_width="285dp"
+        android:layout_height="27dp"
+        android:fontFamily="@font/regular_font"
+        android:text="@string/source_text"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/nextButton"
+        android:layout_width="102dp"
+        android:layout_height="40dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="45dp"
+        android:fontFamily="@font/regular_font"
+        android:onClick="goToNextActivity"
+        android:padding="8dp"
+        android:text="NEXT →"
+        android:textColor="#000000"
+        android:textSize="20sp" /><!-- Use string resource -->
+
+</LinearLayout>
+
+
+

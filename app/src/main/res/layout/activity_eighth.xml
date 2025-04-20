@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    android:background="@color/cream">
+
+    <!-- Title Text: Capital of Palestine -->
+
+    <!-- Image of Jerusalem -->
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="275dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/regular_font"
+        android:text="Capital Of Palestine"
+        android:textColor="#000000"
+        android:textSize="29sp" />
+
+    <TextView
+        android:id="@+id/titleTextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:fontFamily="@font/regular_font"
+        android:text="Jerusalem"
+        android:textColor="#000000"
+        android:textSize="26sp" />
+
+    <ImageView
+        android:id="@+id/domeImageView"
+        android:layout_width="365dp"
+        android:layout_height="314dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/jerusalem_image" /><!-- Use your image here -->
+
+
+    <!-- Source Text with Link -->
+    <TextView
+        android:id="@+id/sourceTextView"
+        android:layout_width="285dp"
+        android:layout_height="27dp"
+        android:fontFamily="@font/regular_font"
+        android:text="Source: "
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/flagImageView"
+        android:layout_width="186dp"
+        android:layout_height="104dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/flag2" />
+
+    <TextView
+        android:id="@+id/freeText"
+        android:layout_width="271dp"
+        android:layout_height="84dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/regular_font"
+        android:text="FROM THE RIVER TO THE SEA PALESTINE WILL BE FREE 🇵🇸🇵🇸"
+        android:textColor="#000000"
+        android:textSize="18sp" /> <!-- Centering the "Free" text -->
+    <!-- The flag image you want to add -->
+
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "531322315828",
+    "project_id": "globalpalestine2025",
+    "storage_bucket": "globalpalestine2025.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:531322315828:android:48d1f022c03dec8a721661",
+        "android_client_info": {
+          "package_name": "com.example.palestine"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkDOzFBKwyqqUyEIBXWdoVmwg9VaWWjCQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

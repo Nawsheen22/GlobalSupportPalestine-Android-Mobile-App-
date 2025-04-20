@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    android:background="@color/cream">
+
+    <!-- Existing ImageView and TextViews -->
+
+    <ImageView
+        android:id="@+id/gifImageView"
+        android:layout_width="365dp"
+        android:layout_height="102dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:fontFamily="@font/regular_font"
+        android:text="Welcome"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:fontFamily="@font/regular_font"
+        android:text="Long Live Palestine"
+        android:textColor="#000"
+        android:textSize="27sp" />
+
+    <!-- Horizontal LinearLayout to hold buttons side by side -->
+
+    <ImageView
+        android:layout_width="398dp"
+        android:layout_height="263dp"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/dome" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnDonate"
+            android:layout_width="110dp"
+            android:layout_height="61dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/button_donate"
+            android:fontFamily="@font/regular_font"
+            android:text="Donate"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnMore"
+            android:layout_width="110dp"
+            android:layout_height="61dp"
+            android:background="@drawable/button_more"
+            android:fontFamily="@font/regular_font"
+            android:text="More"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <!-- "Log Out" Button added below other buttons -->
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="61dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_logout"
+        android:fontFamily="@font/regular_font"
+        android:text="Log Out"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+</LinearLayout>
